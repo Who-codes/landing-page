@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F2D7B6;
+}
+
+nav{
+    background-color: #747474;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 6em;
+}
+
+nav img{
+    width: 4em;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    font-size: 1em;
+    color: #e5e7eb;
+}
+
+
+.container{
+    background-color: #747474;
+    padding: 3em 6em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.container h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #f9faf8;
+}
+
+.container button{
+    padding: 0.25em 0.75em;
+    font-size: inherit;
+    font-weight: bold;
+    color: #323E40;
+    background-color: #F2D7B6;
+    border: none;
+    margin-top: 10px;
+}
+
+.text-content{
+    min-width: 200px;
+    flex: 1;
+}
+
+.container img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info{
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.info h2{
+    font-size: 36px;
+}
+
+.info-container{
+    display: flex;
+    gap: 1em;
+    padding: 2em 8em;
+}
+
+.info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.25em;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #323E40;
+    border-radius: 10px;
+}
+
+.qoute{
+    background-color: #e5e7eb;
+    padding: 4em 10em;
+}
+
+.qoute p{
+    font-size: 36px;
+    color: #1f2937;
+}
+.qoute .italic{
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.qoute .bold{
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+.cta{
+    padding: 2em 8em;
+}
+
+.cta-content{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+.cta-content button{
+    font-size: inherit;
+    padding: 0.25em 0.75em;
+    background-color: transparent;
+    border: 2px solid #F2D7B6;
+    border-radius: 5px;
+    color: inherit;
+}
+
+footer{
+    background-color: #747474;
+    color: #e5e7eb;
+    padding: 2em;
+    text-align: center;
+}
