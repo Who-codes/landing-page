@@ -73,6 +73,7 @@ nav img{
     margin-top: 10px;
     border-radius: 5px;
 }
+
 .container button:hover, .container button:active{
     background-color: #f9faf8;
 }
@@ -103,7 +104,8 @@ nav img{
 .info-container{
     display: flex;
     gap: 1em;
-    padding: 2em 8em;
+    padding: 2em;
+    flex-wrap: wrap;
 }
 
 .info-content{
@@ -112,6 +114,7 @@ nav img{
     align-items: center;
     text-align: center;
     gap: 0.25em;
+    flex: 1;
 }
 
 .card{
