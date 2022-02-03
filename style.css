@@ -71,6 +71,10 @@ nav img{
     background-color: #F2D7B6;
     border: none;
     margin-top: 10px;
+    border-radius: 5px;
+}
+.container button:hover, .container button:active{
+    background-color: #f9faf8;
 }
 
 .text-content{
@@ -160,9 +164,15 @@ nav img{
     color: inherit;
 }
 
+.cta button:hover, .cta button:active{
+    border: 2px solid #c3ec9a;
+    color: #c3ec9a;
+}
+
 footer{
     background-color: #747474;
     color: #e5e7eb;
     padding: 2em;
     text-align: center;
 }
+
